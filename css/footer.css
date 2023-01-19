@@ -1,0 +1,21 @@
+.footer {
+	padding: 80px 0;
+	background-color: var(--black-color);
+}
+
+.footer__content {
+	gap: 20px;
+}
+
+.footer__title {
+	color: var(--white-color);
+}
+
+.footer__link {
+	color: var(--white-color);
+	transition: color .2s linear;
+}
+
+.footer__link:hover {
+	color: var(--gray-color);
+}

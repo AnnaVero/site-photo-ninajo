@@ -1,0 +1,29 @@
+.work {
+	background-color: var(--black-color);
+	color: var(--white-color);
+}
+
+.work__title {
+	color: var(--white-color);
+}
+
+.work__inner {
+	align-items: stretch;
+	margin-bottom: 0;
+}
+
+.work__content {
+	max-width: 250px;
+}
+
+.work__subtitle {
+	color: var(--white-color);
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.work__number {
+	margin: 20px 0;
+	font-size: 20px;
+	opacity: 60%;
+}
