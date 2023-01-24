@@ -57,11 +57,13 @@
 		right: 0;
 		top: 0;
 		overflow-y: auto;
+
 		padding: 30px 0;
 		width: 60%;
 		max-width: 300px;
 		height: 800px;
-		background-color: var(--black-color);
+
+		background-color: var(--white-color);
 		transform: translateX(100%);
 		transition: transform 0.6s ease-in-out;
 	}
@@ -89,6 +91,10 @@
 		font-size: 20px;
 	}
 
+	.nav__link:hover::after {
+		width: 0;
+	}
+
 	/* Overall */
 
 	.hero-title {
@@ -111,6 +117,13 @@
 
 	.about__inner {
 		flex-direction: column;
+	}
+
+	/* Hero */
+
+	.hero__btn {
+		width: 150px;
+		height: 150px;
 	}
 }
 

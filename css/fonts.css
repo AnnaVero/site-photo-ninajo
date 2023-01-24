@@ -1,9 +1,9 @@
 @font-face {
-	font-family: 'Zodiak';
-	src: url('../fonts/Zodiak-Regular.woff2') format('woff2'),
-		url('../fonts/Zodiak-Regular.woff') format('woff');
+	font-family: 'Satoshi';
+	src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+		url('../fonts/Satoshi-Bold.woff') format('woff');
 	font-display: swap;
-	font-weight: 400;
+	font-weight: 700;
 	font-style: normal;
 }
 
