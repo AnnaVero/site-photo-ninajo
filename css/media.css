@@ -1,0 +1,192 @@
+@media (max-width: 992px) {
+
+	/* About */
+
+	.about__img {
+		width: 100%;
+	}
+
+	.about__signature {
+		text-align: left;
+	}
+
+	/* Price */
+
+	.price-form__topics {
+		flex-direction: column;
+	}
+
+	.price-form__label {
+		margin: 0 auto;
+		width: 400px;
+		min-height: 600px;
+	}
+
+	.contacts-form {
+		width: 400px;
+		margin: 50px auto;
+	}
+}
+
+@media (max-width: 800px) {
+
+	/* Portfolio */
+
+	.portfolio__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.portfolio__cover {
+		min-width: 80%;
+		max-height: 100%;
+	}
+
+	.portfolio__btn {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/* Burger */
+
+	.burger {
+		display: block;
+	}
+
+	.nav {
+		position: fixed;
+		right: 0;
+		top: 0;
+		overflow-y: auto;
+
+		padding: 30px 0;
+		width: 60%;
+		max-width: 300px;
+		height: 800px;
+
+		background-color: var(--black-color);
+		transform: translateX(100%);
+		transition: transform 0.6s ease-in-out;
+	}
+
+	.nav--visible {
+		transform: none;
+	}
+
+	.nav__list {
+		flex-direction: column;
+	}
+
+	.nav__item {
+		width: 100%;
+	}
+
+	.nav__item:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.nav__link {
+		display: inline-block;
+		width: 100%;
+		padding: 20px 30px;
+		font-size: 20px;
+	}
+
+	.nav__link:hover::after {
+		width: 0;
+	}
+
+	/* Overall */
+
+	.hero-title {
+		font-size: calc(30px + (15 + 15 * 0.7) * ((100vw - 320px) / 1260));
+	}
+
+	.section-title {
+		font-size: calc(20px + (15 + 15 * 0.7) * ((100vw - 320px) / 1260));
+	}
+
+	section {
+		padding: 50px 0;
+	}
+
+	.section-inner {
+		margin: 50px 0;
+	}
+
+	/* About */
+
+	.about__inner {
+		flex-direction: column;
+	}
+
+	.about__content:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	/* Hero */
+
+	.hero__btn {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+@media (max-width: 576px) {
+
+	/* Price */
+
+	.price-form__label {
+		margin: 0 auto;
+		width: 350px;
+		min-height: 600px;
+	}
+
+	.contacts-form {
+		width: 350px;
+		margin: 50px auto;
+	}
+
+	/* Price */
+
+	.contacts-form {
+		padding: 50px 20px;
+	}
+
+	.contacts-form__input {
+		width: 100%;
+	}
+
+	.contacts-textarea {
+		width: 100%;
+	}
+}
+
+@media (max-width: 420px) {
+
+	/* About */
+
+	.about__inner-media {
+		justify-content: center;
+	}
+
+	/* Price */
+
+	.price-form__label {
+		margin: 0 auto;
+		width: 250px;
+		min-height: 400px;
+	}
+
+	.contacts-form {
+		width: 250px;
+		margin: 50px auto;
+	}
+
+	.price__btn {
+		padding: 18px 55px;
+	}
+}
