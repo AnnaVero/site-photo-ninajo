@@ -28,7 +28,6 @@
 	margin: 0;
 	padding: 0;
 	align-items: center;
-	min-width: 500px;
 }
 
 .nav__item:not(:last-child) {
