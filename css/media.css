@@ -49,7 +49,11 @@
 }
 
 @media (max-width: 767px) {
-
+	
+	.hero {
+		min-height: 500px;
+	}
+	
 	/* Burger */
 
 	.burger {
